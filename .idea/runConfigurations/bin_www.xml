@@ -1,6 +1,11 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="bin\www" type="NodeJSConfigurationType" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
     <envs>
+      <env name="DB_HOST" value="127.0.0.1" />
+      <env name="DB_NAME" value="roxilerAssignment" />
+      <env name="DB_PASSWORD" value="12345678@hello" />
+      <env name="DB_PORT" value="3306" />
+      <env name="DB_USER" value="root" />
       <env name="DEBUG" value="roxiler-backend:*" />
     </envs>
     <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
